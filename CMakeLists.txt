@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(Lab02 LANGUAGES CXX)
+project(Editor LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(SFML_STATIC_LIBRARIES ON)
 find_package(SFML 3.0 COMPONENTS Graphics Window System REQUIRED)
 
-add_executable(Lab02
+add_executable(Editor
     src/main.cpp
     src/Shapes.cpp
 
@@ -19,13 +19,13 @@ add_executable(Lab02
     imgui/ImGuiFileDialog.cpp
 )
 
-target_include_directories(Lab02 PRIVATE
+target_include_directories(Editor PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/imgui
     ${CMAKE_CURRENT_SOURCE_DIR}/include
 
 )
 
-target_link_libraries(Lab02 PRIVATE
+target_link_libraries(Editor PRIVATE
     SFML::Graphics
     SFML::Window
     SFML::System

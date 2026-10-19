@@ -37,16 +37,16 @@ int main()
     std::string fileName;
 
     //Textures
-    sf::Texture brush("../Brush.png");
+    sf::Texture brush("../img/Brush.png");
     sf::Sprite brush_sprite(brush);
 
-    sf::Texture rectangle("../Rectangle.png");
+    sf::Texture rectangle("../img/Rectangle.png");
     sf::Sprite rectangle_sprite(rectangle);
 
-    sf::Texture rectangle_filled("../Rectangle_filled.png");
+    sf::Texture rectangle_filled("../img/Rectangle_filled.png");
     sf::Sprite rectangle_filled_sprite(rectangle_filled);
 
-    sf::Texture circle("../Circle.png");
+    sf::Texture circle("../img/Circle.png");
     sf::Sprite Circle_sprite(circle);
 
     //Color Pickers
