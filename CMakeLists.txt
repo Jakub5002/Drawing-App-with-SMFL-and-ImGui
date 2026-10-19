@@ -30,3 +30,6 @@ target_link_libraries(Editor PRIVATE
     SFML::Window
     SFML::System
 )
+
+file(COPY ${CMAKE_SOURCE_DIR}/img
+     DESTINATION ${CMAKE_BINARY_DIR})
