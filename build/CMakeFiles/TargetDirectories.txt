@@ -1,3 +1,0 @@
-/root/Interfjsy/Lab02/build/CMakeFiles/Editor.dir
-/root/Interfjsy/Lab02/build/CMakeFiles/edit_cache.dir
-/root/Interfjsy/Lab02/build/CMakeFiles/rebuild_cache.dir
